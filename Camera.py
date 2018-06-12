@@ -55,6 +55,7 @@ def handle(text, mic, profile, wxbot=None):
         if 'sound' in profile[SLUG] and \
            not profile[SLUG]['sound']:
             sound = False
+#Use USB Camera here
         if 'usb_camera' in profile[SLUG] and \
                 profile[SLUG]['usb_camera']:
             usb_camera = True
